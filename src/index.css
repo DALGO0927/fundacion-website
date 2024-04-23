@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Definiciones de colores globales */
+:root {
+  --fundacion-azul: #2F46BA;
+  --fundacion-amarillo: #ECEC30;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Usando los colores en clases específicas */
+.fundacion-bg-azul {
+  background-color: var(--fundacion-azul);
+  color: white; /* Asegúrate de que el texto sea legible */
+}
+
+.fundacion-bg-amarillo {
+  background-color: var(--fundacion-amarillo);
+  color: black; /* Contraste adecuado para legibilidad */
+}
+
+.fundacion-text-azul {
+  color: var(--fundacion-azul);
+}
+
+.fundacion-text-amarillo {
+  color: var(--fundacion-amarillo);
 }
